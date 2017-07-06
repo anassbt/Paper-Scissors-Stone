@@ -1,3 +1,5 @@
+// START JAVASCRIPT PAPER, STONE, SCISSORS
+
 var compare = function (choix1, choix2)
 {
     if (choix1 === choix2)
@@ -103,3 +105,5 @@ while(userChoice === computerChoice)
     {break;}
 }
 }
+
+// END JAVASCRIPT PAPER, STONE, SCISSORS
