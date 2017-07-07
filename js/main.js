@@ -1,6 +1,6 @@
 // START JAVASCRIPT PAPER, STONE, SCISSORS
 
-var compare = function (choix1, choix2)
+/* var compare = function (choix1, choix2)
 {
     if (choix1 === choix2)
     {
