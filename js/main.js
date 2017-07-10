@@ -104,6 +104,15 @@ while(userChoice === computerChoice)
     if(b !== "Pierre")
     {break;}
 }
-}
+} */
 
 // END JAVASCRIPT PAPER, STONE, SCISSORS
+
+// NOM DU JOUEUR
+
+function myFunction() {
+  var x = document.getElementById("fname").value;
+  document.getElementById("result").innerHTML = "On va jouer à un jeu" + ", " + x;
+document.getElementById("playername").innerHTML = " => " + x;
+document.getElementById("scoreplayername").innerHTML = " => " + x;
+}
