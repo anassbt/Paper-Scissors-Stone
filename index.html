@@ -32,13 +32,8 @@
     <div class="row">
 
       <div class="col-sm-12">
-        <h1 class="bienvenu">BONJOUR, JOUEUR</h1>
-      </div>
-
-      <br>
-
-      <div class="col-sm-12">
-        <h2 class="bienvenubis">ON VA JOUER A UN JEU ... </h2>
+        <h1 class="bienvenu">BONJOUR,</h1>
+        Entrer votre nom ici: <input type="text" class="fname" id="fname" onchange="myFunction()">
       </div>
 
     </div>
@@ -52,7 +47,7 @@
     <div class="row">
 
       <div class="col-sm-4">
-        <h3 class="player">JOUEUR :</h3>
+        <h3 class="player" id="playername">JOUEUR :</h3>
 
         <br>
 
@@ -80,7 +75,30 @@
       </div>
 
       <div class="col-sm-4">
-        <h3 class="player">ARENE</h3>
+        <h3 class="arene">ARENE</h3>
+
+        <br>
+
+        <div class="col-sm-12">
+          <h2 class="bienvenubis" id="result"></h2>
+        </div>
+
+        <br>
+
+        <div class="col-sm-12">
+          <p>
+            "Jeu de mains : jeu de vilains... Choisissez sagement entre la pierre, la feuille et le ciseaux..."
+          </p>
+        </div>
+
+        <br>
+
+        <h3>SCORE</h3>
+
+        <br>
+
+        <p> <span id="scoreplayername"></span> vs CPU</p>
+
       </div>
 
       <div class="col-sm-4">
