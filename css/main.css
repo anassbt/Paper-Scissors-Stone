@@ -94,8 +94,8 @@ Browser Upgrade Prompt
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
-
-.container {
+body {
+  color: white;
   text-align: center;
 }
 
@@ -103,22 +103,39 @@ h1 {
   font-family: 'Special Elite', cursive;
   color: :white;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .bienvenubis {
   font-family: 'Special Elite', cursive;
   color: : #cccccc;
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .player {
-  font-family: 'Bellefair', serif;
+  font-family: 'Special Elite', cursive;
   color: : #cccccc;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
 }
+
+img {
+  height: 90px;
+    width: 90px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
 
 
 
