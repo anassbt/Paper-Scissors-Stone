@@ -95,7 +95,7 @@ Browser Upgrade Prompt
 Author's custom styles
 ========================================================================== */
 body {
-  color: white;
+  color: red;
   text-align: center;
   font-family: 'Special Elite', cursive;
   text-decoration-style: solid;
@@ -139,12 +139,15 @@ h1, h3, p {
 }
 
 
-img {
+.choix {
   height: 90px;
   width: 90px;
 }
 
-
+.jigsaw {
+  height: 383.875px;
+  width: 224px;
+}
 
 
 
