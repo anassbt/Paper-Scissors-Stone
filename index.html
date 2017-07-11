@@ -32,8 +32,13 @@
     <div class="row">
 
       <div class="col-sm-12">
-        <h1 class="bienvenu">BONJOUR,</h1>
-        Entrer votre nom ici: <input type="text" class="fname" id="fname" onchange="myFunction()">
+
+
+        <p>Entrer votre nom ici: </p><input type="text" class="fname" id="fname" onchange="myFunction()">
+
+        <br>
+
+
       </div>
 
     </div>
@@ -55,19 +60,19 @@
           <div class="row">
 
             <figure class="col-sm-12">
-              <img src="img/pierre-150x150.png" alt="pierre">
+              <img class="choix" src="img/pierre-150x150.png" alt="pierre" onclick="choix1('Pierre')">
             </figure>
 
             <br>
 
             <figure class="col-sm-12">
-              <img src="img/feuille-150x150.png" alt="feuille">
+              <img class="choix" src="img/feuille-150x150.png" alt="feuille" onclick="choix1('Feuille')">
             </figure>
 
             <br>
 
             <figure class="col-sm-12">
-              <img src="img/ciseaux-150x150.png" alt="ciseaux">
+              <img class="choix" src="img/ciseaux-150x150.png" alt="ciseaux" onclick="choix1('Ciseaux')">
             </figure>
 
           </div>
@@ -76,6 +81,8 @@
 
       <div class="col-sm-4">
         <h3 class="arene">ARENE</h3>
+
+        <h3 id="helloplayername"></h3>
 
         <br>
 
@@ -93,6 +100,12 @@
 
         <br>
 
+       <div class="col-sm-12">
+
+      <p id="message"></p>
+      <p id="resultat"></p>
+
+       </div>
         <h3>SCORE</h3>
 
         <br>
@@ -110,20 +123,9 @@
           <div class="row">
 
             <figure class="col-sm-12">
-              <img src="img/pierre-150x150.png" alt="pierre">
+              <img class="jigsaw" src="img/saw-12inch.png" alt="Jigsaw puppet ">
             </figure>
 
-            <br>
-
-            <figure class="col-sm-12">
-              <img src="img/feuille-150x150.png" alt="feuille">
-            </figure>
-
-            <br>
-
-            <figure class="col-sm-12">
-              <img src="img/ciseaux-150x150.png" alt="ciseaux">
-            </figure>
 
           </div>
         </div>
@@ -133,9 +135,14 @@
   </div>
   <!-- END MAIN -->
 
-  <footer>
-
+  <!-- START FOOTER -->
+  <footer class="container">
+    <div class="row">
+      <div class="col-sm-12">© Tout droits réservés / Crée par  @CreasyCarlito</div>
+    </div>
   </footer>
+
+  <!-- END FOOTER -->
 
   <!-- Images Type  -->
   <!-- <img src="http://placehold.it/350x150" alt=""> -->
