@@ -17,7 +17,6 @@ if (joueur < 3 && Ordi < 3 ){
 var b = Math.floor((Math.random() * 3) + 1);
 
 
-
 if(b==1){
   b="pierre";
 } else if (b==2){
@@ -56,15 +55,15 @@ else if(a==="ciseaux" && b==="papier"){
 joueur++;
 }
 
-document.getElementById("joueur").innerHTML = joueur;
-document.getElementById("Ordi").innerHTML = Ordi;
+document.getElementById("PLAYER").innerHTML = joueur;
+document.getElementById("JIGSAW").innerHTML = Ordi;
 
 if (joueur == 3) {
-  document.getElementById("goku").src = "img/5934fdaa8e0f7833128f0e8dc704bc1f.png";
+  document.getElementById("GAGNE").src = "https://media.giphy.com/media/a0h7sAqON67nO/giphy.gif";
 ;
 }
 else if(Ordi==3){
-  document.getElementById("win").src = "img/vegeta_ssj_by_naironkr-dadgz00.png";
+  document.getElementById("PERDU").src = "https://media.giphy.com/media/Rci7yWYxKOMFy/giphy.gif";
 }
 
 
